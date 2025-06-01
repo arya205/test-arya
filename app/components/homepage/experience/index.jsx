@@ -6,6 +6,7 @@ import { BsPersonWorkspace } from "react-icons/bs";
 import experience from '../../../assets/lottie/code.json';
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
+import LottieContainer from "../../lottieContainer/lottieContainer";
 
 function Experience() {
   return (
@@ -32,6 +33,7 @@ function Experience() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex justify-center items-start">
             <div className="w-full h-full">
+              <LottieContainer animationPath={experience} />
               {/* <AnimationLottie animationPath={experience} /> */}
             </div>
           </div>
