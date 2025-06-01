@@ -33,7 +33,7 @@ function Experience() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex justify-center items-start">
             <div className="w-full h-full">
-              <LottieContainer animationPath={experience} />
+              {/* <LottieContainer animationPath={experience} /> */}
               {/* <AnimationLottie animationPath={experience} /> */}
             </div>
           </div>
