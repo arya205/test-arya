@@ -10,13 +10,13 @@ import GlowCard from "../../helper/glow-card";
 function Experience() {
   return (
     <div id="experience" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
-      {/* <Image
+      <Image
         src="/section.svg"
         alt="Hero"
         width={1572}
         height={795}
         className="absolute top-0 -z-10"
-      /> */}
+      />
 
       <div className="flex justify-center my-5 lg:py-8">
         <div className="flex  items-center">
@@ -36,7 +36,7 @@ function Experience() {
             </div>
           </div>
 
-          {/* <div>
+          <div>
             <div className="flex flex-col gap-6">
               {
                 experiences.map(experience => (
@@ -72,7 +72,7 @@ function Experience() {
                 ))
               }
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
